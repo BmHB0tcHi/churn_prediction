@@ -1,12 +1,14 @@
-# Target
-## Churn: Whether the customer churned or not (Yes or No)
+# Classification model (RandomForestClassifier)
 
-### Two numerical columns:
+## Target
+### Churn: Whether the customer churned or not (Yes or No)
+
+#### Two numerical columns:
 1. **MonthlyCharges**: The amount charged to the customer monthly
 2. **TotalCharges**: The total amount charged to the customer
 
-### Eighteen categorical columns:
-#### Feature name : Description
+#### Eighteen categorical columns:
+##### Feature name : Description
 1. CustomerID : Customer ID unique for each customer
 2. gender : Whether the customer is a male or a female
 3. SeniorCitizen: Whether the customer is a senior citizen or not (1, 0)
@@ -25,3 +27,8 @@
 16. Contract: The contract term of the customer (Month-to-month, One year, Two years)
 17. PaperlessBilling: Whether the customer has paperless billing or not (Yes, No)
 18. PaymentMethod: The customer’s payment method (Electronic check, Mailed check, Bank transfer (automatic), Credit card (automatic))
+
+#### Phase 1 (Explorotary Data Analysis)
+##### Why did customers churn?
+This is where we try to visualize the features, and how they are related with our target.
+we also try to draw patters/trends from these features, aswell as concluding some basic theory on our main question 
