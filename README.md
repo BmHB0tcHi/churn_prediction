@@ -1,13 +1,14 @@
-Target
-Churn: Whether the customer churned or not (Yes or No)
+# Target
+## Churn: Whether the customer churned or not (Yes or No)
 
-Two numerical columns:
-1. MonthlyCharges: The amount charged to the customer monthly
-2. TotalCharges: The total amount charged to the customer
+### Two numerical columns:
+1. **MonthlyCharges**: The amount charged to the customer monthly
+2. **TotalCharges**: The total amount charged to the customer
 
-Eighteen categorical columns:
-1. CustomerID: Customer ID unique for each customer
-2. gender: Whether the customer is a male or a female
+### Eighteen categorical columns:
+#### Feature name : Description
+1. CustomerID : Customer ID unique for each customer
+2. gender : Whether the customer is a male or a female
 3. SeniorCitizen: Whether the customer is a senior citizen or not (1, 0)
 4. Partner: Whether the customer has a partner or not (Yes, No)
 5. Dependents: Whether the customer has dependents or not (Yes, No)
