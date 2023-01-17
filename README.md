@@ -3,6 +3,7 @@
 ## Target
 ### Churn: Whether the customer churned or not (Yes or No)
 
+### Description about the features/columns
 #### Two numerical columns:
 1. **MonthlyCharges**: The amount charged to the customer monthly
 2. **TotalCharges**: The total amount charged to the customer
@@ -28,7 +29,35 @@
 17. PaperlessBilling: Whether the customer has paperless billing or not (Yes, No)
 18. PaymentMethod: The customer’s payment method (Electronic check, Mailed check, Bank transfer (automatic), Credit card (automatic))
 
-#### Phase 1 (Explorotary Data Analysis)
-##### Why did customers churn?
+
+
+## Phase 1 (Explorotary Data Analysis)
+### Getting to know the dataset better
+1) Shape
+2) Null Values summary
+3) Column datatypes
+aswell as a small amount of cleaning and preprocessing
+
+### Why did customers churn(main question)?
+FILE_TAG: (EDA_1)
 This is where we try to visualize the features, and how they are related with our target.
 we also try to draw patters/trends from these features, aswell as concluding some basic theory on our main question 
+Aswell as providing possible solution to what we conclude is part of the problem
+
+FILE_TAG: (EDA_2)
+Here we take several groups of people
+1. People who left and stayed in first 6 months
+2. Loyal Customers
+We mainly apply the same metrics we applied in EDA_1 file, where we also compare different features with out target
+
+## Phase 2 (Training the model)
+FILE_TAG: (Final_Train_Model)
+1) Feature extraction (Recursive Feature Elimination (RFE) and SelectKBest)
+2) Sampling Techniques (SMOTE/RandomOverSampler)
+3) Data Splitting and training
+4) Model Evaluation (confusion_matrix, ROC_AUC_Curve)
+
+
+## Phase 3 (Model Deployment) 
+** Under Construction **
+
