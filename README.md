@@ -1,5 +1,5 @@
 # Classification model (RandomForestClassifier)
-![Bear](/home/Pictures/ursa_major_bear.jpg)
+![Bear](/home/generaltiger92/Pictures/ursa_major_bear.jpg)
 
 ## Target
 ### Churn: Whether the customer churned or not (Yes or No)
