@@ -57,6 +57,45 @@ FILE_TAG: (Final_Train_Model)
 3) Data Splitting and training
 4) Model Evaluation (confusion_matrix, ROC_AUC_Curve)
 
+### Phase 2 Confusion matrix
+Our evaluation was **Recall** based (Lower **False Negative**)
+
+[What is a confusion matrix?] : https://medium.com/analytics-vidhya/what-is-a-confusion-matrix-d1c0f8feda5
+
+Recall = out of the total actually who churned , how many did the model actually manage to predict correctly
+
+Precision = out of the total which the **model** predicted will leave , how many actually churned
+
+If recall increases , precision decreases, and vice versa
+
+### Why focus on lowering **False negatives** ?
+In our situation, we decided that lowering false negative values is more important than lowering false positive
+
+
+Positive prediction (0) =  no churn
+
+Negative prediction (1) = churn
+
+**False Negative** = predicted positve , while actual value was negative.
+
+In simpler terms , a positive prediction means that the model  predicited that a certain customer did not churn, but he actually did.
+
+this is bad in a business situation.
+
+**False Positive** = predicted negative , while actualy value was positive
+
+In simpler terms , a negative prediction means that the model  predicited that a certain customer  churned, but he actually did not
+
+this is digestable  in a business situation and not as bad as the situation above
+
+A higher recall mean lower false negatives. Recall was our main evaluation metric , while also taking into consideration a considerable
+f1 score(harmonic mean of precision and recall).
+
+#### Threshold optimization (OPTIONAL)
+You can even increase recall more by applying a high threshold to the predicted probabilities.
+This inturn will increase recall significantly , but a decreases precision aswell.
+Overall lower f1-score , but high precision
+
 
 ## Phase 3 (Model Deployment) 
 ** Under Construction **
